@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainGame"
+    android:background="@color/grey2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="413dp"
+        android:layout_height="424dp"
+        android:layout_marginBottom="220dp"
+        android:background="@drawable/contcolortac"
+        android:outlineAmbientShadowColor="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/bttn0"
+            android:layout_width="117dp"
+            android:layout_height="117dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btncolortoe"
+            android:fontFamily="@font/archivo_black"
+            android:text=""
+            android:textSize="60sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/bttn1"
+            android:layout_width="117dp"
+            android:layout_height="117dp"
+            android:layout_marginStart="148dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btncolortoe"
+            android:fontFamily="@font/archivo_black"
+            android:text=""
+            android:textSize="60sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/bttn2"
+            android:layout_width="117dp"
+            android:layout_height="117dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btncolortoe"
+            android:fontFamily="@font/archivo_black"
+            android:text=""
+            android:textSize="60sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/bttn3"
+            android:layout_width="117dp"
+            android:layout_height="117dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="152dp"
+            android:background="@drawable/btncolortoe"
+            android:fontFamily="@font/archivo_black"
+            android:text=""
+            android:textSize="60sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/bttn4"
+            android:layout_width="117dp"
+            android:layout_height="117dp"
+            android:layout_marginStart="148dp"
+            android:layout_marginTop="152dp"
+            android:background="@drawable/btncolortoe"
+            android:fontFamily="@font/archivo_black"
+            android:text=""
+            android:textSize="60sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/bttn5"
+            android:layout_width="117dp"
+            android:layout_height="117dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="152dp"
+            android:background="@drawable/btncolortoe"
+            android:fontFamily="@font/archivo_black"
+            android:text=""
+            android:textSize="60sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/bttn6"
+            android:layout_width="117dp"
+            android:layout_height="117dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="288dp"
+            android:background="@drawable/btncolortoe"
+            android:fontFamily="@font/archivo_black"
+            android:text=""
+            android:textSize="60sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/bttn7"
+            android:layout_width="117dp"
+            android:layout_height="117dp"
+            android:layout_marginStart="148dp"
+            android:layout_marginTop="288dp"
+            android:background="@drawable/btncolortoe"
+            android:fontFamily="@font/archivo_black"
+            android:text=""
+            android:textSize="60sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/bttn8"
+            android:layout_width="117dp"
+            android:layout_height="117dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="288dp"
+            android:background="@drawable/btncolortoe"
+            android:fontFamily="@font/archivo_black"
+            android:text=""
+            android:textSize="60sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/OCont"
+        android:layout_width="438dp"
+        android:layout_height="206dp"
+        android:layout_marginBottom="664dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/PlayAgain"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="128dp"
+            android:background="@drawable/circplay"
+            android:rotation="180"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_play_arrow_24" />
+
+        <ImageButton
+            android:id="@+id/Reset"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="360dp"
+            android:layout_marginTop="128dp"
+            android:background="@drawable/circres"
+            android:rotation="180"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_refresh_24" />
+
+
+        <TextView
+            android:id="@+id/Logo2"
+            android:layout_width="308dp"
+            android:layout_height="378dp"
+            android:layout_marginTop="-150dp"
+            android:fontFamily="@font/archivo_black"
+            android:rotation="180"
+            android:text="O"
+            android:textAlignment="center"
+            android:textColor="#16731C"
+            android:textSize="400sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.584"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/OCONT"
+            android:layout_width="242dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="52dp"
+            android:background="@drawable/contout2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/Player2Name"
+                android:layout_width="137dp"
+                android:layout_height="61dp"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/aoboshi_one"
+                android:rotation="180"
+                android:text="McBee"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.504"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/Player2Score"
+                android:layout_width="137dp"
+                android:layout_height="61dp"
+                android:layout_marginBottom="48dp"
+                android:fontFamily="@font/aoboshi_one"
+                android:rotation="180"
+                android:shadowColor="@color/green"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@color/green"
+                android:textColorHighlight="@color/green"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.504"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="222dp"
+            android:layout_height="62dp"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="@font/aoboshi_one"
+            android:rotation="180"
+            android:text="Status"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/XCont"
+        android:layout_width="438dp"
+        android:layout_height="206dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/status1"
+            android:layout_width="224dp"
+            android:layout_height="61dp"
+            android:layout_marginBottom="132dp"
+            android:fontFamily="@font/aoboshi_one"
+            android:text="Status"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageButton
+            android:id="@+id/PlayAgain1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="360dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/circplay"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_play_arrow_24" />
+
+        <ImageButton
+            android:id="@+id/Reset1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/circres"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_refresh_24" />
+
+
+        <TextView
+            android:id="@+id/Logo"
+            android:layout_width="308dp"
+            android:layout_height="378dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/archivo_black"
+            android:text="X"
+            android:textAlignment="center"
+            android:textColor="#4B0000"
+            android:textSize="400sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/XCONT"
+            android:layout_width="242dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/contout"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/Player1Name"
+                android:layout_width="137dp"
+                android:layout_height="61dp"
+                android:layout_marginBottom="64dp"
+                android:fontFamily="@font/aoboshi_one"
+                android:text="McBee"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/Player1Score"
+                android:layout_width="137dp"
+                android:layout_height="61dp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/aoboshi_one"
+                android:shadowColor="#FF6969"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textColorHighlight="#FF6868"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
